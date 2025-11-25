@@ -9,7 +9,7 @@
     "outDir": "./dist",
     "resolveJsonModule": true,      // Usando "node" para Node.js
     "moduleResolution": "node",
-    "lib": ["es2022"],              /* Atualizado para incluir as bibliotecas do ES2022 */
+    "lib": ["es2022", "DOM"],              /* Atualizado para incluir as bibliotecas do ES2022 */
     "types": ["node", "cypress"]
   },
   "include": ["**/*.ts"],
