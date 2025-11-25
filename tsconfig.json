@@ -1,0 +1,18 @@
+{
+"compilerOptions": {
+    "target": "es2022",             /* <--- ALTERADO PARA ES2022 */
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true,      // Usando "node" para Node.js
+    "moduleResolution": "node",
+    "lib": ["es2022", "DOM"],              /* Atualizado para incluir as bibliotecas do ES2022 */
+    "types": ["node", "cypress"]
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"],
+  "files": ["cypress.config.js", "cypress/support/e2e.ts"]
+}
